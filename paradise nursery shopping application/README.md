@@ -1,30 +1,81 @@
-# React + TypeScript + Vite
+# Paradise Nursery Shopping Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+Paradise Nursery is a React-based online plant shopping application. The application allows users to browse different plants, view plant information, add products to a shopping cart, update quantities, and manage their cart before checkout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of the React final project.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Browse available plants
+* View plant details and prices
+* Add plants to the shopping cart
+* Increase or decrease product quantities
+* Remove products from the cart
+* View the total number of items in the cart
+* Calculate the total price of products
+* Responsive and user-friendly interface
+* Navigation between different sections of the application
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+* React
+* TypeScript
+* Vite
+* JavaScript/JSX
+* CSS
+* Redux Toolkit
+* React Redux
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── pages/
+├── redux/
+├── App.jsx
+├── App.css
+└── main.jsx
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## How to Run the Project
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the development server
+
+```bash
+npm run dev
+```
+
+### 3. Open the application
+
+Open the localhost URL displayed in the terminal.
+
+## Application Sections
+
+### Home Page
+
+The home page introduces Paradise Nursery and provides navigation to the plant shopping section.
+
+### Product Listing
+
+Users can browse the available plants and view their names, prices, descriptions, and other information.
+
+### Shopping Cart
+
+Users can add plants to their cart and manage the quantity of each product. The cart also displays the total price.
+
+## Author
+
+**Name:** purespirte(arpita kalani)
+
+**Course:** React / Developing Front-End Apps with React
+
+**Project:** Paradise Nursery Shopping Application
